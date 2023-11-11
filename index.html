@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="stylesheet" href="style.css">
+ <meta charset="UTF-8">
+ <title>Rock Paper and Scissors</title>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+ <!-- Home container -->
+ <div id="homeContainer">
+  <p class="gameTitle">Victory Hand</p>
+  <input type="number" name="" id="chalange" placeholder="Give Chalange">
+  <button class="homeBut" onclick="shplcom()"><ion-icon name="person-outline"></ion-icon><span class="homeSpan">Vs</span><ion-icon name="phone-portrait-outline"></ion-icon></button>
+ </div>
+ <!-- Home container over -->
+ <!-- player vs computer -->
+ <!-- Game Container -->
+ <div id="gameCobtainer">
+  <!-- Computer Container-->
+  <div class="computerContainer">
+   <p class="computerName">Computer</p>
+   <div class="gameBox" id="computerBox">
+    
+   </div>   
+   <p class="yourScore">Your Score:<span class="spanScore" id="computerScore"></span></p>
+  </div>
+  <!-- Computer Container Over -->
+  <!-- Resul Container -->
+   <div class="resulContainer">
+    <p class="restart" onclick="restartcon()"><ion-icon name="refresh-outline"></ion-icon></p>
+  
+    <p class="resultBox" id="result">--</p>
+    
+    <p class="leave" onclick="hiplcom()">x</p>
+   </div>
+  <!-- Resul Container over -->
+  <!-- Player Container-->
+  <div class="computerContainer">
+   
+   <p class="yourScore">Your Score:<span id="humanScore" class="spanScore"></span></p>
+   <div class="gameBox" id="playerBox">
+    
+   </div>
+    <p class="computerName">Player</p>
+  </div>
+  <!-- Player Container Over -->
+  <!-- Rock Paper Scissors -->
+  <div class="rpsContainer">
+   <p class="rpsBox" id="rock">Rock</p>
+   <p class="rpsBox" id="paper">Paper</p>
+   <p class="rpsBox" id="scissors">Scissors</p>
+  </div>
+  <!-- Rock Paper Scissors over -->
+  <p id="shoTarget"></p>
+ </div>
+ <!-- Game Container over -->
+ <!-- player vs computer over -->
+ <!-- win container -->
+  <div id="winContainer">
+   <div class="winHead">
+    <p class="winTitle">Victory Hand</p>
+   </div>
+   <div id="sign">
+    <img src="win.jpg" alt="" id="winImg">
+    <p id="gameoverWin">You Loose</p>
+   </div>
+   <p id="wintie">You Win</p>
+   <p class="winCancle" onclick="clowin()">Home</p>
+  </div>
+ <!-- win container over -->
+</body>
+</html>
+<script src="script.js"></script>

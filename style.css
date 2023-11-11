@@ -1,0 +1,256 @@
+*
+ {
+  margin: 0;
+  padding: 0;
+  font-family: Monospace;
+ }
+ #homeContainer
+ {
+  height: 100vh;
+  width: 100%;
+  background: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+ }
+ .gameTitle
+ {
+  font-size: 30px;
+  font-weight: 600;
+  color: #8098ff;
+ }
+ #chalange
+ {
+  padding: 10px;
+  width: 136px;
+  border: 2px solid black;
+  font-size: 18px;
+  color: white;
+  background: rgb(47,47,47,0.5);
+  outline: none;
+ }
+ .homeBut
+ {
+  padding: 10px;
+  width: 160px;
+  border: 2px solid black;
+  font-size: 25px;
+  color: white;
+  background: rgb(47,47,47,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(47,47,47,0.5);
+ }
+ .homeSpan
+ {
+  color: #8098ff;
+ }
+ #gameCobtainer
+ {
+  height: 100vh;
+  width: 100%;
+  background: #121212;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+ }
+ .computerContainer
+ {
+  height: 40vh;
+  width: 100%;
+  background: ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  color: ;
+ }
+ .computerName
+ {
+   font-size: 25px;
+   font-weight: bold;
+   color: white;
+ }
+ .gameBox
+ {
+  height: ;
+  width: max-content;
+  padding: 10px;
+  background: ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  text-shadow: 0px 0px 50px rgb(0,0,0,0.5);
+  font-size: 50px;
+  color: white;
+ }
+ .resulContainer
+ {
+  height: 8vh;
+  width: 100%;
+  background: ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  font-size: 25px;
+  box-shadow: 0px 0px 10px rgb(0,0,0,0.5);
+  color: #8098ff;
+ }
+  .yourScore
+ {
+  font-size: 18px;
+  padding: 5px;
+  color: white;
+ }
+ .spanScore
+ {
+  color: #8098ff;
+ }
+ .rpsContainer
+ {
+  height: 10vh;
+  width: 100%;
+  background: ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+ }
+ .rpsBox
+ {
+  background: white;
+  height: 8vh;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: ease-in-out 1s;
+ }
+ .rpsBox:hover
+ {
+  background: #8098ff;
+ }
+ .leave
+ {
+  position: ;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(47,47,47,0.5);
+  border: 2px solid black;
+  font-size: 18px;
+  color: white;
+  background: rgb(47,47,47,0.5);
+ }
+ .restart
+ {
+  position: ;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(47,47,47,0.5);
+  border: 2px solid black;
+  font-size: 18px;
+  color: white;
+  background: rgb(47,47,47,0.5);
+ }
+ #shoTarget
+ {
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(47,47,47,0.5);
+  border: 2px solid black;
+  font-size: 18px;
+  color: white;
+  background: rgb(47,47,47,0.5);
+ }
+ #winContainer
+ {
+  height: 100vh;
+  width: 100%;
+  background: #121212;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  
+ }
+ .winHead
+ {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  box-shadow: 0px 0px 10px;
+ }
+ .winTitle
+ {
+  font-size: 18px;
+  font-weight: 600;
+  color: #8098ff;
+  margin-left: 5px;
+ }
+ .winCancle
+ {
+  padding: 10px;
+  width: 160px;
+  border: 2px solid black;
+  font-size: 25px;
+  color: white;
+  background: rgb(47,47,47,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(47,47,47,0.5);
+  position: absolute;
+  left: 25%;
+  bottom: 10px;
+ }
+ #sign
+ {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+ }
+ #winImg
+ {
+  height: 400px;
+  width: 100%;
+  display: none;
+ }
+ #gameoverWin
+ {
+  font-size: 50px;
+  font-weight: 600;
+  color: red;
+  position: absolute;
+  display: none;
+ }
+ #wintie
+ {
+  font-size: 50px;
+  font-weight: 600;
+  color: #8098ff;
+  display: none;
+  text-align: center;
+ }
