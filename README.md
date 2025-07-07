@@ -1,6 +1,6 @@
 🪨📄✂️ Rock, Paper, Scissors Game A simple and fun Rock, Paper, Scissors game built using HTML, CSS, and JavaScript. Play against the computer and test your luck!
 
-https://abhishe58.github.io/Rock-paper-scissor-/
+https://abhishe58.github.io/victory-hand/
 
 🚀 Features 🎮 Interactive UI with buttons for Rock, Paper, and Scissors
 
